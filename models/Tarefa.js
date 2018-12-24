@@ -12,7 +12,7 @@ const Tarefa = new Schema({
     },
     prazo: {
         type: Date,
-        default: Date.now()
+        default: Date.now
     },
     prioridade:{
         type: Boolean,
